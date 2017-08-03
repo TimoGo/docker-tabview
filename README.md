@@ -25,4 +25,7 @@ You can even hide al the gory details of docker:
 ```bash
 alias tabview='docker run -it --rm -v $(pwd):/data tghode/docker-tabview'
 ```
-
+Using the container:
+```bash
+$ tabview demo.csv
+```
