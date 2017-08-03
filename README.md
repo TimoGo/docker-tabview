@@ -15,15 +15,18 @@
 
 ## RUN
 with given filename:
-```docker run -it --env filename=2.csv --rm -v $(pwd):/data  tghode/docker-tabview:latest
+```bash
+docker run -it --env filename=2.csv --rm -v $(pwd):/data  tghode/docker-tabview:latest
 ```
 without filename:
-```docker run -it --rm -v $(pwd):/data tghode/docker-tabview:latest
+```bash
+docker run -it --rm -v $(pwd):/data tghode/docker-tabview:latest
 ```
 Note that the contents of the current directory will be mapped into the container as /data 
 
 ## Alias
 You can even hide al the gory details of docker:
-```alias tabview='docker run -it --rm -v $(pwd):/data tghode/docker-tabview'
+```bash
+alias tabview='docker run -it --rm -v $(pwd):/data tghode/docker-tabview'
 ```
 
