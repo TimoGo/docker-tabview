@@ -21,6 +21,7 @@ without filename:
 
 Note that the contents of the current directory will be mapped into the container as /data 
 
+## Alias
+You can even hide al the gory details of docker:
+    alias tabview='docker run -it --rm -v $(pwd):/data tghode/docker-tabview'
 
-## TODOs
-* inlcuding demo csv-files

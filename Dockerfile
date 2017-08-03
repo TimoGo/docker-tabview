@@ -1,7 +1,7 @@
 FROM debian:9
 
 RUN apt-get update && \
-    apt-get -y --no-install-recommends install git python3-pip peco && \
+    apt-get -y --no-install-recommends install git python3-pip && \
     apt-get clean && \ 
     update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1 && \
     groupadd --gid 1000 user && \
