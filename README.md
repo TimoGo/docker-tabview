@@ -14,13 +14,9 @@
 * at least Debian 9 (stretch) is required because of peco
 
 ## RUN
-with given filename:
+you need a csv-file eg demo.csv:
 ```bash
-docker run -it --env filename=2.csv --rm -v $(pwd):/data  tghode/docker-tabview:latest
-```
-without filename:
-```bash
-docker run -it --rm -v $(pwd):/data tghode/docker-tabview:latest
+docker run -it --rm -v $(pwd):/data  tghode/docker-tabview:latest demo.csv
 ```
 Note that the contents of the current directory will be mapped into the container as /data 
 
