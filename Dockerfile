@@ -11,6 +11,9 @@ COPY docker-entrypoint.sh /
 
 USER user
 
+ENV PYTHONIOENCODING "utf-8"
+
+
 RUN cd /home/user && \ 
     git clone https://github.com/jahrome/tabview.git && \
     pip3 install --user tabview
