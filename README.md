@@ -1,4 +1,3 @@
-.. image:: https://img.shields.io/badge/coolness-high-green.svg
 
 
 ## what is tabview?
