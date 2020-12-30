@@ -1,3 +1,6 @@
+.. image:: https://img.shields.io/badge/coolness-high-green.svg
+
+
 ## what is tabview?
 * view a CSV file in a spreadsheet-like display in textmode (ncurses).
 * see https://github.com/jahrome/tabview
